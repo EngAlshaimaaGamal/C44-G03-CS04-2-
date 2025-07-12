@@ -247,6 +247,68 @@
 
             #endregion
 
+            #region Evolution in C# 9.0 [ logical pattern ,relational pattern , enhanced property pattern]
+
+
+
+            #region Example 01 Relational pattern 
+
+            //int number = 10;
+            //string result = number switch
+            //{
+
+            //    < 10 => " number less than 10",
+            //    >= 10 and <= 20 => "Number Between 10 to 20",
+            //    > 20 => " number is greater than 20"
+
+            //};
+            //Console.WriteLine(result);  
+
+
+
+
+            #endregion
+
+            #region Example 02 logical pattern
+            //int number = 50;
+            //string result = number switch
+            //{
+
+            //    >0 and <10 => " number Between 0 to 10",
+            //    >= 10 and <= 20 => "Number Between 10 to 20",
+            //    0 => " number is 0" ,
+            //    //_ => " Out of the range "
+            //    > 20 or < 0 => " out of the range" 
+
+            //};
+            //Console.WriteLine(result);
+
+
+
+
+
+            #endregion
+
+            #region Example 03 enhanced property pattern
+
+            //Person number = new Person() {Id = 21 , Name ="Samy" ,age =25 };
+            //string result;
+            //result = number switch
+            //{
+            //    { Name: "Samy", age: > 20 } => "Hellow samy",
+            //    { Name: "Omer  ", age: > 20 and < 24 } => " hello Omer",
+            //    { age: > 50 and < 60 } => " hellwo oid man",
+            //    _ => "  I unKnwon you"
+
+            //};
+            //Console.WriteLine(result);
+
+
+
+            #endregion
+
+            #endregion
+
 
 
 
