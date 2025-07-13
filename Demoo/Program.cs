@@ -317,6 +317,150 @@
 
 
 
+            #region Control statment 
+
+
+
+
+            //Console.WriteLine("1");
+            //Console.WriteLine("2");
+            //Console.WriteLine("3");
+            //Console.WriteLine("4");
+            //Console.WriteLine("5");
+            //Console.WriteLine("6");
+            //Console.WriteLine("7");
+            //Console.WriteLine("8");
+            //Console.WriteLine("9"); 
+            //Console.WriteLine("10");
+
+            //// 10 step
+
+
+
+            //Console.WriteLine("=========================");
+
+
+
+            //for (int i=1 ; i<= 10 ; i++) 
+            //{
+            //  Console.WriteLine(i);
+
+            //}
+
+
+
+
+
+
+
+
+
+            #region for foreach 
+
+            //int[] number = { 1, 2, 3, 4, 5};
+
+
+            //for (int i = 0; i < number.Length; i++)
+            //{
+
+            //    if (i == 2)
+            //    { 
+            //       // continue;
+            //      // break;
+            //    }
+            //   // number[i] += 10;
+
+            //    Console.WriteLine(number[i ]);
+
+
+            //}
+
+
+
+            //Console.WriteLine("=======================");    
+            //foreach (int item in number) 
+            //{
+
+            //  //  item +=10 invalid
+            //    Console.WriteLine(item);
+
+
+
+
+            //}
+
+
+
+
+
+
+
+            #endregion
+
+            #region While - Do while
+
+
+            #region While
+
+            //Console.WriteLine("Enter the number");
+            // bool isParsed = int.TryParse(Console.ReadLine(), out int number);
+            //if (isParsed)
+            //{
+            //    while (number <= 10)
+            //    {
+            //        Console.WriteLine(number);
+            //        number++;
+
+
+            //    }
+
+            //}
+
+
+
+
+
+            #endregion
+
+
+            #region Do while
+
+            //bool IsParsed;
+            //int number;
+
+            //do
+            //{
+
+            //    Console.WriteLine("Enter the  even number ");
+            //    IsParsed = int.TryParse(Console.ReadLine(), out number);
+
+            //} 
+            //while ( !IsParsed || number %2 ==1);
+
+            //Console.WriteLine($" the number {number} is even" );
+
+
+
+
+            #endregion
+
+
+
+
+
+
+
+            #endregion
+
+
+
+
+
+
+            #endregion
+
+
+
 
 
 
